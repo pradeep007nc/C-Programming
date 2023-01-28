@@ -1,0 +1,27 @@
+
+
+body {
+    margin: 20px;
+  }
+        
+  #box1{
+    width:100px;
+    height:100px;
+    background: blue;
+    animation-name: pradee;
+    animation-duration: 4s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:5;
+    animation-delay: 1s;
+  }
+  @keyframes pradee{
+    from{
+      background-color:blue;
+      transform: translate(20PC, 20PX);
+    }
+    to{
+      background-color:yellow;
+      transform: translate(20PC, 20PC);
+    }
+  }
+  

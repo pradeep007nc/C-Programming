@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+</head>
+<body>
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <script>
+
+        const questions = {
+            1: "What is your name?",
+            2: "is vinayak mental? yes no doubt."
+        }
+      for(var [key, value] of Object.entries(questions)){
+        document.writeln("<h1>question is "+Object.keys(questions)+" value is </h1>"+value);
+      }
+      
+    </script>
+</body>
+</html>
